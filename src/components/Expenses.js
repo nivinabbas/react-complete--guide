@@ -1,8 +1,8 @@
 import ExpennseItem from './ExpenseItem';
-
+import './Expenses.css';
 const Expenses = (props) => {
   return (
-    <div>
+    <div className="expenses">
       <ExpennseItem
         title={props.expenses[0].title}
         amount={props.expenses[0].amount}
